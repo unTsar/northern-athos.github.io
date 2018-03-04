@@ -1,0 +1,326 @@
+body section .section-about {
+  padding: 20px 100px 0px 100px;
+  background-color: #E1E1E1;
+  width: 100%;
+  height: 585px; }
+  body section .section-about a {
+    font-family: 'Arial'; }
+
+body section .section-icons {
+  background-color: #3C463C;
+  width: 100%;
+  height: 2450px; }
+  body section .section-icons .section-icon {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-bottom: 10px; }
+  body section .section-icons .icons1 {
+    height: 1400px; }
+  body section .section-icons .img1 {
+    padding: 100px 129px 0px 129px; }
+  body section .section-icons .img2 {
+    padding: 100px 187px 0px 187px; }
+  body section .section-icons .img3 {
+    padding: 100px 218px 0px 217px; }
+  body section .section-icons .img4 {
+    padding: 100px 140px 0px 139px; }
+
+body section .iconostases-desc {
+  padding: 20px 100px 0px 100px;
+  background-color: #D2D2D2;
+  width: 100%;
+  height: 150px; }
+
+body section .iconostases-images {
+  padding-top: 100px;
+  background-color: #4B4B4B;
+  width: 100%;
+  height: 2700px;
+  text-align: center; }
+  body section .iconostases-images .iconostases-image {
+    border: 1px solid #fff; }
+  body section .iconostases-images .img1 {
+    height: 1411px;
+    margin: 0px 199px 0px 198px; }
+  body section .iconostases-images .img2 {
+    height: 887px;
+    margin: 50px 171px 0px 171px; }
+  body section .iconostases-images .img3 {
+    height: 828px;
+    margin: 50px 171px 0px 171px; }
+  body section .iconostases-images .img2, body section .iconostases-images .img3 {
+    display: inline-block; }
+  body section .iconostases-images p {
+    margin-top: 50px; }
+
+body section .murals-desc {
+  padding: 20px 100px 0px 100px;
+  background-color: #D2D2D2;
+  width: 100%;
+  height: 175px; }
+
+body section .murals-images {
+  padding-top: 100px;
+  background-color: #46463C;
+  width: 100%;
+  height: 3400px;
+  text-align: center; }
+  body section .murals-images .murals-image {
+    border: 1px solid #fff; }
+  body section .murals-images .img1 {
+    height: 1278px;
+    margin: 0px 99px 0px 98px; }
+  body section .murals-images .img2 {
+    height: 575px;
+    margin: 150px 603px 0px 602px; }
+  body section .murals-images .img3 {
+    height: 971px;
+    margin: 150px 99px 0px 98px; }
+
+body section .section-ourworks {
+  padding: 20px 100px 0px 100px;
+  background-color: #E1E1E1;
+  height: 900px;
+  width: 100%; }
+  body section .section-ourworks p {
+    text-indent: 5%; }
+
+@media only screen and (max-width: 1500px) {
+  body section .section-about {
+    height: 690px; }
+  body section .section-icons .img1 {
+    padding: 100px 0px 0px 28px; }
+  body section .section-icons .img2 {
+    padding: 100px 28px 0px 117px; }
+  body section .section-icons .img3 {
+    padding: 100px 103px 0px 102px; }
+  body section .section-icons .img4 {
+    padding: 100px 25px 0px 25px; }
+  body section .section-iconostases .iconostases-desc {
+    height: 175px; }
+  body section .section-iconostases .iconostases-images {
+    height: 2500px; }
+    body section .section-iconostases .iconostases-images .img1 {
+      height: 1223px;
+      margin: 0px 69px 0px 69px; }
+      body section .section-iconostases .iconostases-images .img1 img {
+        width: 1300px !important; }
+    body section .section-iconostases .iconostases-images .img2, body section .section-iconostases .iconostases-images .img3 {
+      margin: 50px 58px 0px 58px; }
+  body section .section-murals .murals-desc {
+    height: 200px; }
+  body section .section-murals .murals-images {
+    height: 2800px; }
+    body section .section-murals .murals-images .img1 {
+      height: 903px;
+      margin: 0px 119px 0px 119px; }
+      body section .section-murals .murals-images .img1 img {
+        width: 1200px !important; }
+    body section .section-murals .murals-images .img2 {
+      margin: 150px 373px 0px 373px; }
+    body section .section-murals .murals-images .img3 {
+      height: 743px;
+      margin: 150px 69px 0px 69px; }
+      body section .section-murals .murals-images .img3 img {
+        width: 1300px !important; }
+  body section .section-ourworks {
+    height: 950px; } }
+
+@media only screen and (max-width: 1200px) {
+  body section .section-about {
+    padding: 15px 50px 0px 50px;
+    height: 850px; }
+  body section .section-icons {
+    height: 4400px; }
+    body section .section-icons .section-icon {
+      width: 100%;
+      padding: 50px 0px 0px 0px; }
+  body section .section-iconostases .iconostases-desc {
+    padding: 15px 50px 0px 50px;
+    height: 200px; }
+  body section .section-iconostases .iconostases-images {
+    height: 3000px; }
+    body section .section-iconostases .iconostases-images .iconostases-image {
+      display: block; }
+    body section .section-iconostases .iconostases-images .img1 {
+      height: 848px;
+      margin: 0px 61px 0px 61px; }
+      body section .section-iconostases .iconostases-images .img1 img {
+        width: 900px !important; }
+    body section .section-iconostases .iconostases-images .img2 {
+      margin: 50px 186px 0px 186px; }
+    body section .section-iconostases .iconostases-images .img3 {
+      margin: 50px 236px 0px 236px; }
+  body section .section-murals .murals-desc {
+    height: 225px;
+    padding: 15px 50px 0px 50px; }
+  body section .section-murals .murals-images {
+    height: 2350px; }
+    body section .section-murals .murals-images .img1 {
+      height: 678px;
+      margin: 0px 61px 0px 61px; }
+      body section .section-murals .murals-images .img1 img {
+        width: 900px !important; }
+    body section .section-murals .murals-images .img2 {
+      margin: 150px 165px 0px 165px; }
+    body section .section-murals .murals-images .img3 {
+      height: 515px;
+      margin: 150px 61px 0px 61px; }
+      body section .section-murals .murals-images .img3 img {
+        width: 900px !important; }
+  body section .section-ourworks {
+    height: 1000px;
+    padding: 15px 50px 0px 50px; } }
+
+@media only screen and (max-width: 992px) {
+  body section .section-about {
+    height: 1100px; }
+  body section .section-iconostases .iconostases-desc {
+    height: 225px; }
+  body section .section-iconostases .iconostases-images {
+    height: 2650px;
+    padding-top: 50px; }
+    body section .section-iconostases .iconostases-images .img1 {
+      height: 566px;
+      margin: 0px 83px 0px 83px; }
+      body section .section-iconostases .iconostases-images .img1 img {
+        width: 600px !important; }
+    body section .section-iconostases .iconostases-images .img2 {
+      margin: 50px 58px 0px 58px; }
+    body section .section-iconostases .iconostases-images .img3 {
+      margin: 50px 108px 0px 108px; }
+  body section .section-murals .murals-desc {
+    height: 280px; }
+  body section .section-murals .murals-images {
+    height: 2050px;
+    padding-top: 50px; }
+    body section .section-murals .murals-images .img1 {
+      height: 527px;
+      margin: 0px 33px 0px 33px; }
+      body section .section-murals .murals-images .img1 img {
+        width: 700px !important; }
+    body section .section-murals .murals-images .img2 {
+      margin: 150px 37px 0px 37px; }
+    body section .section-murals .murals-images .img3 {
+      height: 401px;
+      margin: 150px 33px 0px 33px; }
+      body section .section-murals .murals-images .img3 img {
+        width: 700px !important; }
+  body section .section-ourworks {
+    height: 1250px; } }
+
+@media only screen and (max-width: 760px) {
+  body section .section-about {
+    padding: 15px 25px 0px 25px;
+    height: 1800px; }
+  body section .section-icons {
+    height: 3050px; }
+    body section .section-icons .section-icon {
+      padding-top: 25px; }
+      body section .section-icons .section-icon img {
+        width: 400px !important; }
+  body section .section-iconostases .iconostases-desc {
+    height: 350px;
+    padding: 15px 25px 0px 25px; }
+  body section .section-iconostases .iconostases-images {
+    height: 1850px; }
+    body section .section-iconostases .iconostases-images .iconostases-image img {
+      width: 400px !important; }
+    body section .section-iconostases .iconostases-images .img1 {
+      height: 378px;
+      margin: 0px 11px 0px 12px; }
+    body section .section-iconostases .iconostases-images .img2 {
+      height: 546px;
+      margin: 25px 11px 0px 12px; }
+    body section .section-iconostases .iconostases-images .img3 {
+      height: 602px;
+      margin: 25px 11px 0px 12px; }
+  body section .section-murals .murals-desc {
+    height: 450px;
+    padding: 15px 25px 0px 25px; }
+  body section .section-murals .murals-images {
+    height: 1450px;
+    padding-top: 25px; }
+    body section .section-murals .murals-images .murals-image img {
+      width: 400px !important; }
+    body section .section-murals .murals-images .img1 {
+      height: 302px;
+      margin: 0px 11px 0px 12px; }
+    body section .section-murals .murals-images .img2 {
+      height: 333px;
+      margin: 150px 11px 0px 12px; }
+    body section .section-murals .murals-images .img3 {
+      height: 230px;
+      margin: 150px 11px 0px 12px; }
+  body section .section-ourworks {
+    height: 1980px;
+    padding: 15px 25px 0px 25px; } }
+
+@media only screen and (max-width: 420px) {
+  body section .section-about {
+    height: 2050px; }
+  body section .section-icons {
+    height: 2600px; }
+    body section .section-icons .section-icon img {
+      width: 300px !important; }
+  body section .section-iconostases .iconostases-desc {
+    height: 450px; }
+  body section .section-iconostases .iconostases-images {
+    height: 1600px; }
+    body section .section-iconostases .iconostases-images .iconostases-image img {
+      width: 300px !important; }
+    body section .section-iconostases .iconostases-images .img1 {
+      height: 284px;
+      margin: 0px 37px 0px 36px; }
+    body section .section-iconostases .iconostases-images .img2 {
+      height: 410px;
+      margin: 25px 37px 0px 36px; }
+    body section .section-iconostases .iconostases-images .img3 {
+      height: 452px;
+      margin: 25px 37px 0px 36px; }
+  body section .section-murals .murals-desc {
+    height: 500px; }
+  body section .section-murals .murals-images {
+    height: 1250px; }
+    body section .section-murals .murals-images .murals-image img {
+      width: 300px !important; }
+    body section .section-murals .murals-images .img1 {
+      height: 227px;
+      margin: 0px 37px 0px 36px; }
+    body section .section-murals .murals-images .img2 {
+      height: 250px;
+      margin: 150px 37px 0px 36px; }
+    body section .section-murals .murals-images .img3 {
+      height: 173px;
+      margin: 150px 37px 0px 36px; }
+  body section .section-ourworks {
+    height: 2250px; } }
+
+@media only screen and (max-width: 370px) {
+  body section .section-about {
+    height: 2500px; }
+  body section .section-iconostases .iconostases-desc {
+    height: 500px; }
+  body section .section-iconostases .iconostases-images .img1 {
+    height: 284px;
+    margin: 0px 9px 0px 9px; }
+  body section .section-iconostases .iconostases-images .img2 {
+    height: 410px;
+    margin: 25px 9px 0px 9px; }
+  body section .section-iconostases .iconostases-images .img3 {
+    height: 452px;
+    margin: 25px 9px 0px 9px; }
+  body section .section-murals .murals-desc {
+    height: 600px; }
+  body section .section-murals .murals-images .img1 {
+    height: 227px;
+    margin: 0px 9px 0px 9px; }
+  body section .section-murals .murals-images .img2 {
+    height: 250px;
+    margin: 150px 9px 0px 9px; }
+  body section .section-murals .murals-images .img3 {
+    height: 173px;
+    margin: 150px 9px 0px 9px; }
+  body section .section-ourworks {
+    height: 2550px; } }
