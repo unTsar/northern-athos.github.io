@@ -1,0 +1,139 @@
+body section {
+  position: relative; }
+  body section .section-about {
+    text-align: justify;
+    padding: 30px 200px 0px 200px;
+    background-color: #E1E1E1;
+    width: 100%; }
+    body section .section-about a {
+      font-family: 'Arial'; }
+    body section .section-about p {
+      padding-bottom: 15px; }
+    body section .section-about h2 {
+      padding-bottom: 15px; }
+  body section .section-icons {
+    background-color: #3C463C;
+    width: 100%; }
+    body section .section-icons .section-icon {
+      width: 50%;
+      padding-top: 100px;
+      vertical-align: top;
+      display: inline-block;
+      text-align: center; }
+      body section .section-icons .section-icon p {
+        margin-top: 30px; }
+    body section .section-icons .img2, body section .section-icons .img4 {
+      margin-left: -4px; }
+    body section .section-icons .img1 img {
+      height: 1000px !important;
+      width: auto !important; }
+  body section .iconostases-desc {
+    text-align: justify;
+    padding: 30px 200px 0px 200px;
+    background-color: #D2D2D2;
+    width: 100%; }
+  body section .iconostases-images {
+    padding-top: 100px;
+    background-color: #4B4B4B;
+    width: 100%;
+    text-align: center; }
+    body section .iconostases-images .iconostases-image img {
+      border: 1px solid #fff; }
+    body section .iconostases-images .img2, body section .iconostases-images .img3 {
+      display: inline; }
+    body section .iconostases-images .img2 img {
+      margin: 50px 100px 0px 0px; }
+    body section .iconostases-images .img3 img {
+      margin: 50px 0px 0px 100px; }
+    body section .iconostases-images p {
+      margin-top: 30px; }
+  body section .murals-desc {
+    text-align: justify;
+    padding: 30px 200px 0px 200px;
+    background-color: #D2D2D2;
+    width: 100%; }
+  body section .murals-images {
+    padding-top: 100px;
+    background-color: #46463C;
+    width: 100%;
+    text-align: center; }
+    body section .murals-images .murals-image p {
+      margin-top: 30px; }
+    body section .murals-images .murals-image img {
+      border: 1px solid #fff; }
+    body section .murals-images .img1 img, body section .murals-images .img3 img {
+      width: 1200px !important; }
+  body section .section-ourworks {
+    text-align: justify;
+    padding: 30px 200px 0px 200px;
+    background-color: #E1E1E1;
+    width: 100%; }
+    body section .section-ourworks p {
+      padding-bottom: 10px;
+      text-indent: 2%; }
+
+@media only screen and (max-width: 1500px) {
+  body section .section-icons .section-icon {
+    width: 100%;
+    display: block; }
+  body section .section-iconostases .iconostases-images .img1 img {
+    width: 1300px !important; } }
+
+@media only screen and (max-width: 1420px) {
+  body section .section-iconostases .iconostases-images .img2 img, body section .section-iconostases .iconostases-images .img3 img {
+    margin: 50px 0px 0px 0px; } }
+
+@media only screen and (max-width: 1200px) {
+  body section .section-about {
+    padding: 15px 50px 0px 50px; }
+  body section .section-iconostases .iconostases-desc {
+    padding: 15px 50px 0px 50px; }
+  body section .section-iconostases .iconostases-images .iconostases-image {
+    display: block; }
+  body section .section-iconostases .iconostases-images .img1 img {
+    width: 900px !important; }
+  body section .section-murals .murals-desc {
+    padding: 15px 50px 0px 50px; }
+  body section .section-murals .murals-images .murals-image img {
+    width: 900px !important; }
+  body section .section-ourworks {
+    padding: 15px 50px 0px 50px; } }
+
+@media only screen and (max-width: 992px) {
+  body section .section-iconostases .iconostases-images {
+    padding-top: 50px; }
+    body section .section-iconostases .iconostases-images .img1 img {
+      width: 600px !important; }
+  body section .section-murals .murals-images {
+    padding-top: 50px; }
+    body section .section-murals .murals-images .murals-image img {
+      width: 700px !important; } }
+
+@media only screen and (max-width: 760px) {
+  body section .section-about {
+    padding: 15px 25px 0px 25px; }
+  body section .section-icons .section-icon {
+    padding-top: 25px; }
+    body section .section-icons .section-icon img {
+      width: 400px !important; }
+  body section .section-iconostases .iconostases-desc {
+    padding: 15px 25px 0px 25px; }
+  body section .section-iconostases .iconostases-images .iconostases-image img {
+    margin: 50px 0px 0px 0px;
+    width: 400px !important; }
+  body section .section-murals .murals-desc {
+    padding: 15px 25px 0px 25px; }
+  body section .section-murals .murals-images {
+    padding-top: 25px; }
+    body section .section-murals .murals-images .murals-image img {
+      width: 400px !important; }
+  body section .section-ourworks {
+    padding: 15px 25px 0px 25px; } }
+
+@media only screen and (max-width: 420px) {
+  body section .section-icons .section-icon img {
+    width: 300px !important; }
+  body section .section-iconostases .iconostases-images .iconostases-image img {
+    width: 300px !important; }
+  body section .section-murals .murals-images .murals-image img {
+    width: 300px !important; } }
