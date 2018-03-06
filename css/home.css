@@ -40,11 +40,12 @@ body section {
     body section .iconostases-images .iconostases-image img {
       border: 1px solid #fff; }
     body section .iconostases-images .img2, body section .iconostases-images .img3 {
-      display: inline; }
-    body section .iconostases-images .img2 img {
-      margin: 50px 100px 0px 0px; }
-    body section .iconostases-images .img3 img {
-      margin: 50px 0px 0px 100px; }
+      vertical-align: top;
+      padding-top: 50px;
+      width: 50%;
+      display: inline-block; }
+    body section .iconostases-images .img3 {
+      margin-left: -4px; }
     body section .iconostases-images p {
       margin-top: 30px; }
   body section .murals-desc {
@@ -73,23 +74,22 @@ body section {
       text-indent: 2%; }
 
 @media only screen and (max-width: 1500px) {
-  body section .section-icons .section-icon {
-    width: 100%;
-    display: block; }
+  body section .section-icons .section-icon img {
+    width: 400px !important;
+    height: auto !important; }
   body section .section-iconostases .iconostases-images .img1 img {
-    width: 1300px !important; } }
+    width: 1200px !important; } }
 
-@media only screen and (max-width: 1420px) {
-  body section .section-iconostases .iconostases-images .img2 img, body section .section-iconostases .iconostases-images .img3 img {
-    margin: 50px 0px 0px 0px; } }
+@media only screen and (max-width: 1300px) {
+  body section .section-iconostases .iconostases-images .iconostases-image {
+    width: 100%;
+    display: block; } }
 
 @media only screen and (max-width: 1200px) {
   body section .section-about {
     padding: 15px 50px 0px 50px; }
   body section .section-iconostases .iconostases-desc {
     padding: 15px 50px 0px 50px; }
-  body section .section-iconostases .iconostases-images .iconostases-image {
-    display: block; }
   body section .section-iconostases .iconostases-images .img1 img {
     width: 900px !important; }
   body section .section-murals .murals-desc {
@@ -100,6 +100,8 @@ body section {
     padding: 15px 50px 0px 50px; } }
 
 @media only screen and (max-width: 992px) {
+  body section .section-icons .section-icon img {
+    width: 300px !important; }
   body section .section-iconostases .iconostases-images {
     padding-top: 50px; }
     body section .section-iconostases .iconostases-images .img1 img {
@@ -113,9 +115,13 @@ body section {
   body section .section-about {
     padding: 15px 25px 0px 25px; }
   body section .section-icons .section-icon {
+    width: 100%;
+    display: block;
     padding-top: 25px; }
     body section .section-icons .section-icon img {
       width: 400px !important; }
+  body section .section-icons .img2, body section .section-icons .img4 {
+    margin-left: 0px; }
   body section .section-iconostases .iconostases-desc {
     padding: 15px 25px 0px 25px; }
   body section .section-iconostases .iconostases-images .iconostases-image img {
