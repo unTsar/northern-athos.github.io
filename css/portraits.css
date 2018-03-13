@@ -1,0 +1,60 @@
+body header .header-content {
+  background-color: #3C463C;
+  padding: 115px 0px 25px 0px; }
+  body header .header-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: 200px;
+    border: 1px solid #fff; }
+  body header .header-content .header-name span {
+    font-size: 45px; }
+  body header .header-content .header-name .bname {
+    font-size: 73px !important; }
+
+body section {
+  background-color: #C4BFA5;
+  padding: 30px 200px 0px 200px;
+  text-indent: 2%;
+  text-align: justify; }
+  body section p {
+    padding-bottom: 15px; }
+  body section .section-img {
+    text-align: center; }
+    body section .section-img span {
+      font-size: 15px; }
+
+@media only screen and (max-width: 1400px) {
+  body header .header-content .header-name {
+    top: 0px !important;
+    position: relative;
+    padding: 25px 0px 25px 0px; }
+  body header .header-content img {
+    margin: 0px auto !important; } }
+
+@media only screen and (max-width: 1200px) {
+  body header .header-content {
+    padding: 105px 0px 25px 0px; }
+  body section {
+    padding: 15px 50px 0px 50px; } }
+
+@media only screen and (max-width: 992px) {
+  body header .header-content img {
+    width: 700px !important;
+    height: auto !important; } }
+
+@media only screen and (max-width: 760px) {
+  body header .header-content {
+    padding-top: 180px !important; }
+    body header .header-content img {
+      width: 400px !important;
+      height: auto !important; }
+  body section {
+    padding: 15px 25px 0px 25px; }
+    body section .section-img img {
+      width: 280px !important;
+      height: auto !important; } }
+
+@media only screen and (max-width: 420px) {
+  body header .header-content img {
+    width: 300px !important;
+    height: auto !important; } }
