@@ -1,0 +1,147 @@
+body header .header-content {
+  background-color: #3C463C;
+  padding: 115px 0px 25px 0px; }
+  body header .header-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    border: 1px solid #fff; }
+
+body header .header-name span {
+  font-size: 45px; }
+
+body header .header-name .bname {
+  font-size: 73px !important; }
+
+body section .murals-desc1 {
+  padding: 30px 200px 30px 200px;
+  background-color: #E1E1E1;
+  text-indent: 2%;
+  text-align: justify; }
+
+body section .byzantine-style-images {
+  padding-top: 50px;
+  background-color: #4B5A4B;
+  text-align: center; }
+  body section .byzantine-style-images .byzantine-style img {
+    border: 1px solid #fff; }
+  body section .byzantine-style-images .img3, body section .byzantine-style-images .img4, body section .byzantine-style-images .img5, body section .byzantine-style-images .img6 {
+    vertical-align: top;
+    margin-top: 50px;
+    display: inline-block; }
+  body section .byzantine-style-images .img4, body section .byzantine-style-images .img6 {
+    padding-left: 25px; }
+  body section .byzantine-style-images .img3, body section .byzantine-style-images .img5 {
+    padding-right: 25px; }
+  body section .byzantine-style-images p {
+    margin-top: 30px; }
+
+body section .academic-style-desc {
+  padding: 30px 200px 0px 200px;
+  background-color: #E1E1E1;
+  text-indent: 2%;
+  text-align: justify; }
+
+body section .academic-style-images {
+  padding-top: 50px;
+  background-color: #4B5A4B;
+  text-align: center; }
+  body section .academic-style-images .img2, body section .academic-style-images .img3 {
+    width: 50%;
+    display: inline-block; }
+  body section .academic-style-images .img3 {
+    margin-left: -4px; }
+  body section .academic-style-images .img2 img, body section .academic-style-images .img3 img, body section .academic-style-images .img4 img {
+    border: 1px solid #fff; }
+  body section .academic-style-images p {
+    margin-top: 30px; }
+
+body section .murals-desc2 {
+  padding: 30px 200px 30px 200px;
+  background-color: #E1E1E1;
+  text-indent: 2%;
+  text-align: justify; }
+
+body section .section-video {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #4B5A4B;
+  text-align: center; }
+  body section .section-video span {
+    font-size: 17px; }
+
+@media only screen and (max-width: 1400px) {
+  body header .header-content .header-name {
+    top: 0px !important;
+    position: relative;
+    padding: 25px 0px 25px 0px; }
+  body header .header-content img {
+    margin: 0px auto !important; } }
+
+@media only screen and (max-width: 1200px) {
+  body header .header-content {
+    padding: 105px 0px 25px 0px; }
+  body section .murals-desc1 {
+    padding: 15px 50px 15px 50px; }
+  body section .academic-style-desc {
+    padding: 15px 50px 0px 50px; }
+  body section .murals-desc2 {
+    padding: 15px 50px 0px 50px; }
+  body section .section-video {
+    padding: 15px 0px 15px 0px; } }
+
+@media only screen and (max-width: 992px) {
+  body header .header-content img {
+    width: 700px !important;
+    height: auto !important; }
+  body section .byzantine-style-images .img1 img, body section .byzantine-style-images .img2 img {
+    width: 700px !important;
+    height: auto !important; }
+  body section .byzantine-style-images .img3, body section .byzantine-style-images .img4, body section .byzantine-style-images .img5, body section .byzantine-style-images .img6 {
+    margin-top: 25px;
+    width: 100%;
+    display: block; }
+  body section .byzantine-style-images .img4, body section .byzantine-style-images .img6 {
+    margin-left: 0px; }
+  body section .academic-style-images .img2, body section .academic-style-images .img3 {
+    width: 100%;
+    display: block; }
+  body section .academic-style-images .img3 {
+    margin-top: 25px;
+    margin-left: 0px; } }
+
+@media only screen and (max-width: 760px) {
+  body header .header-content {
+    padding-top: 180px !important; }
+    body header .header-content img {
+      width: 400px !important;
+      height: auto !important; }
+  body section .murals-desc1 {
+    padding: 15px 25px 15px 25px; }
+  body section .byzantine-style-images .byzantine-style img {
+    width: 400px !important;
+    height: auto !important; }
+  body section .academic-style-desc {
+    padding: 15px 25px 0px 25px; }
+  body section .academic-style-images .academic-style img {
+    width: 400px !important;
+    height: auto !important; }
+  body section .murals-desc2 {
+    padding: 15px 25px 0px 25px; }
+  body section .section-video iframe {
+    width: 400px !important;
+    height: 300px !important; } }
+
+@media only screen and (max-width: 420px) {
+  body header .header-content img {
+    width: 300px !important;
+    height: auto !important; }
+  body section .byzantine-style-images .byzantine-style img {
+    width: 300px !important;
+    height: auto !important; }
+  body section .academic-style-images .academic-style img {
+    width: 300px !important;
+    height: auto !important; }
+  body section .section-video iframe {
+    width: 300px !important;
+    height: 200px !important; } }

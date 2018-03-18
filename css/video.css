@@ -1,0 +1,41 @@
+body section {
+  background-color: #4B4B4B;
+  padding: 120px 200px 0px 200px;
+  text-align: justify;
+  text-indent: 2%; }
+  body section h2, body section span {
+    color: #D2B48C; }
+  body section p {
+    padding-bottom: 15px; }
+  body section .video {
+    text-align: center; }
+    body section .video h2 {
+      margin-bottom: 30px;
+      text-transform: none; }
+
+body footer {
+  background-color: #2D2D2D !important; }
+
+@media only screen and (max-width: 1500px) {
+  body section {
+    padding-top: 110px; } }
+
+@media only screen and (max-width: 1200px) {
+  body section {
+    padding: 110px 50px 0px 50px; } }
+
+@media only screen and (max-width: 992px) {
+  body section {
+    padding-top: 150px; } }
+
+@media only screen and (max-width: 760px) {
+  body section {
+    padding: 210px 25px 0px 25px; }
+    body section .video iframe {
+      width: 400px !important;
+      height: 300px !important; } }
+
+@media only screen and (max-width: 420px) {
+  body section .video iframe {
+    width: 280px !important;
+    height: 150px !important; } }
